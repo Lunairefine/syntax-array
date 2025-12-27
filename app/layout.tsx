@@ -53,7 +53,7 @@ export const metadata: Metadata = {
       },
     },
   }),
-    'base:app_id': '-',
+    'base:app_id': '694f44094d3a403912ed81ab',
   },
 };
 
