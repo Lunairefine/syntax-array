@@ -71,7 +71,6 @@ export default function Landing() {
       }
     }
 
-    // Play sound only when creating/interacting
     playSoundEffect();
 
     const newCircle: CircleData = {
