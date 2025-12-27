@@ -13,8 +13,48 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Syntax Canvas",
-  description: "Express your magic",
+  title: "Syntax Array",
+  description: "Your magic is real",
+  metadataBase: new URL('https://syntax-array.vercel.app'),
+  openGraph: {
+    title: "syntaxarray@server:~",
+    description: "Your magic is real",
+    url: "https://syntax-array.vercel.app",
+    siteName: "Syntax Array",
+    images: [
+      {
+        url: "/media/frame.png",
+        width: 1200,
+        height: 630,
+        alt: "Syntax Array OG Image",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    title: "Syntax Array",
+    description: "Your magic is real",
+    card: "summary_large_image",
+    images: ["/media/frame.png"],
+  },
+  other: {
+    "fc:frame": JSON.stringify({
+    version: "next",
+    imageUrl: "https://syntax-array.vercel.app/media/frame.png",
+    button: {
+      title: "Create your magic",
+      action: {
+        type: "launch_frame",
+        name: "Syntax Array Baseapp",
+        url: "https://syntax-array.vercel.app",
+        splashImageUrl: "https://syntax-array.vercel.app/media/icon.png",
+        splashBackgroundColor: "#000000",
+      },
+    },
+  }),
+    'base:app_id': '-',
+  },
 };
 
 export default function RootLayout({

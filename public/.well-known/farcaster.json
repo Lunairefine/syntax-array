@@ -1,0 +1,25 @@
+{
+  "frame": {
+    "name": "Syntax Array",
+    "version": "1",
+    "iconUrl": "https://syntax-array.vercel.app/media/icon.png",
+    "homeUrl": "https://syntax-array.vercel.app/",
+    "imageUrl": "https://syntax-array.vercel.app/media/icon.png",
+    "buttonTitle": "Create your magic",
+    "splashImageUrl": "https://syntax-array.vercel.app/media/icon.png",
+    "splashBackgroundColor": "#000000",
+    "webhookUrl": "https://syntax-array.vercel.app/api/webhook",
+    "subtitle": "syntax array baseapp",
+    "description": "Your magic is real",
+    "primaryCategory": "art-creativity",
+    "heroImageUrl": "https://syntax-array.vercel.app/media/icon.png",
+    "tags": ["webased", "baseapp"],
+    "noindex": true,
+    "tagline": "Play instantly",
+    "ogTitle": "Syntax Array"
+    
+  },
+  "BaseBuilder": {
+    "ownerAddress": "0x66D89085a083d18a5F0FbdDc4AC2DBe57D3B8031"
+  }
+}
