@@ -14,7 +14,7 @@
     "primaryCategory": "art-creativity",
     "heroImageUrl": "https://syntax-array.vercel.app/media/icon.png",
     "tags": ["webased", "baseapp"],
-    "noindex": true,
+    "noindex": false,
     "tagline": "Play instantly",
     "ogTitle": "Syntax Array"
   },
