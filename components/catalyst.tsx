@@ -23,6 +23,12 @@ export default function Landing() {
     return 300;
   };
 
+  const playSoundEffect = () => {
+    const audio = new Audio('/shimmer.mp3');
+    audio.volume = 0.6;
+    audio.play().catch(() => {}); 
+  };
+
   const handlePressStart = () => {
     isLongPressTriggered.current = false;
     timerRef.current = setTimeout(() => {
@@ -64,6 +70,9 @@ export default function Landing() {
         break;
       }
     }
+
+    // Play sound only when creating/interacting
+    playSoundEffect();
 
     const newCircle: CircleData = {
       id: Date.now() + Math.random(),
