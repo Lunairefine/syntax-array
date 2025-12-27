@@ -17,7 +17,11 @@
     "noindex": true,
     "tagline": "Play instantly",
     "ogTitle": "Syntax Array"
-    
+  },
+  "accountAssociation": {
+    "header": "eyJmaWQiOjU0ODczNSwidHlwZSI6ImF1dGgiLCJrZXkiOiIweDk1MDU2QUM2QUY2YjMzNjg2MTY2MkQ4N0YyNzRBODgyNzEzZmUxNkUifQ",
+    "payload": "eyJkb21haW4iOiJzeW50YXgtYXJyYXkudmVyY2VsLmFwcCJ9",
+    "signature": "WXLsUhAMP2cgzynBp8+mZTUWS388nYVm21PtOlU1i4x8Wp4FB79VDcQT7Cp9nT5xw+JgzYNZClhcm+8/QqzzuRs="
   },
   "BaseBuilder": {
     "ownerAddress": "0x66D89085a083d18a5F0FbdDc4AC2DBe57D3B8031"
